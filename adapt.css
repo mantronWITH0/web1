@@ -11,6 +11,13 @@
         max-width: 90vw;
         padding: 20px;
     }
+    .side__panel {
+        width: 100%; /* Боковая панель на всю ширину экрана */
+        margin-bottom: 20px; /* Добавляем отступ между боковой панелью и содержанием */
+    }
+    .blog__content {
+        width: 100%; /* Область содержания на всю ширину экрана */
+    }
 }
 
 @media screen and (max-width: 450px) {
